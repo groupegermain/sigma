@@ -74,7 +74,7 @@ fieldmappings:
     Hashes: winlog.event_data.Hashes
     HiveName: winlog.event_data.HiveName
     HostVersion: winlog.event_data.HostVersion
-    Image: winlog.event_data.Image
+    Image: process.name
     ImageLoaded: winlog.event_data.ImageLoaded
     ImagePath: winlog.event_data.ImagePath
     Imphash: winlog.event_data.Imphash
